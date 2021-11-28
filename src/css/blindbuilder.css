@@ -1,0 +1,1669 @@
+.orange-arrow-link,
+h2 {
+    color: #e69018
+}
+
+h1,
+h2 {
+    letter-spacing: -1px
+}
+
+h2,
+h3 {
+    font-weight: 300
+}
+
+.orange-arrow-link,
+h4 {
+    text-transform: uppercase
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+.disabled-event,
+.disabled-field,
+.no-video {
+    pointer-events: none
+}
+
+.orange-triangle-bullet-link {
+    display: inline-block;
+    text-transform: uppercase
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 35px;
+    font-family: nimbus-sans, sans-serif;
+    font-style: normal;
+    margin-bottom: 34px
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 8px;
+    color: #4c4c4c
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #313446;
+    padding-bottom: 8px
+}
+
+.subtitle {
+    font-family: utopia-std, serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px
+}
+
+.text-block,
+.text-block-dark {
+    font-size: 16px;
+    line-height: 20px;
+    color: grey
+}
+
+.text-block-dark {
+    color: #fff
+}
+
+.vertical-gray-separator:first-child:before {
+    content: none
+}
+
+.vertical-gray-separator:before {
+    content: none;
+    width: 1px;
+    height: 112px;
+    background: #ddd;
+    position: absolute;
+    top: 50%;
+    margin-top: -56px;
+    left: 0
+}
+
+@media (min-width:769px) {
+    .vertical-gray-separator:before {
+        content: ''
+    }
+}
+
+.modal-width {
+    width: 600px;
+    max-width: 100%
+}
+
+.no-edit {
+    display: none
+}
+
+.no-video {
+    color: #ccc
+}
+
+.grey {
+    background-color: #f2f2f2
+}
+
+#confirm_Name,
+.first-name input,
+.last-name input {
+    text-transform: capitalize
+}
+
+.error {
+    color: #d10303;
+    font-size: 14px
+}
+
+input.error {
+    border: 1px solid #d10303
+}
+
+.BlindBuilder {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    min-height: 864px
+}
+
+@media (max-width:590px) {
+    .BlindBuilder {
+        padding: 25px 0
+    }
+}
+
+.BlindBuilder__top {
+    width: 100%;
+    max-width: 1336px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap
+}
+
+.BlindBuilder__accordion,
+.BlindBuilder__canvas {
+    display: block;
+    max-width: 50%;
+    background: #fff;
+    flex: 1 1 50%
+}
+
+.BlindBuilder__canvas {
+    width: 50%;
+    padding: 0 4.16667%
+}
+
+@media (max-width:768px) {
+    .BlindBuilder__top {
+        display: block
+    }
+    .BlindBuilder__accordion,
+    .BlindBuilder__canvas {
+        max-width: 100%
+    }
+    .BlindBuilder__canvas {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+.StickyWrapper--canvas .BlindBuilder__canvas {
+    width: 100%;
+    padding: 0
+}
+
+.BlindBuilder__accordion {
+    width: 50%;
+    padding-right: 6.94444%;
+    z-index: 4;
+    position: relative
+}
+
+.BlindBuilder__accordion h2 {
+    color: #313446;
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 22px;
+    position: relative;
+    z-index: 2
+}
+
+@media (max-width:768px) {
+    .BlindBuilder__accordion {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px
+    }
+    .BlindBuilder__accordion h2 {
+        display: none
+    }
+}
+
+.BlindBuilder__accordion .Field--pointy-text-button {
+    margin-top: 30px
+}
+
+.BlindBuilder .AdditionalCost {
+    color: #e69018;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px
+}
+
+.BlindBuilder__accordion__step--color .AdditionalCost {
+    display: none
+}
+
+.disabled-field {
+    opacity: .3
+}
+
+.disabled-field span {
+    cursor: no-drop
+}
+
+.BlindBuilder .image-field {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.BlindBuilder .image-field:after,
+.BlindBuilder .image-field:before {
+    display: table;
+    content: ""
+}
+
+.BlindBuilder .image-field:after {
+    clear: both
+}
+
+.BlindBuilder .image-field h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: utopia-std, serif;
+    font-weight: 400;
+    font-style: italic;
+    color: grey
+}
+
+.BlindBuilder .image-field p,
+.BlindBuilder .image-field p a,
+.BlindBuilder .image-field p strong,
+.BlindBuilder__accordion__step__header {
+    font-family: nimbus-sans, sans-serif;
+    font-style: normal
+}
+
+.BlindBuilder .image-field p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    padding: 0 20px;
+    color: grey
+}
+
+.BlindBuilder .image-field p strong {
+    font-weight: 700
+}
+
+.BlindBuilder .image-field p a {
+    color: #e69018;
+    text-decoration: none;
+    font-weight: 400
+}
+
+.BlindBuilder .image-field p.note {
+    font-size: 12px
+}
+
+.BlindBuilder .image-field p.note strong {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: inherit
+}
+
+.BlindBuilder .image-field li {
+    float: left;
+    width: 255px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative
+}
+
+.BlindBuilder .image-field .choice-divider {
+    width: 50px;
+    display: block;
+    position: relative
+}
+
+.BlindBuilder .image-field .choice-divider span {
+    display: inline-block;
+    background: #ddd;
+    width: 1px;
+    height: 193px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -96.5px
+}
+
+.BlindBuilder .image-field .child-safe-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.BlindBuilder .image-field .image-choice.vertical {
+    width: 247px;
+    text-align: center;
+    border: 4px solid #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    position: relative;
+    background: #f2f2f2
+}
+
+.BlindBuilder .image-field .image-choice.vertical .check {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #e69018;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.BlindBuilder .image-field .image-choice.vertical.selected {
+    border: 4px solid #e69018
+}
+
+.BlindBuilder .image-field .image-choice.vertical.selected .check {
+    opacity: 1
+}
+
+.BlindBuilder .image-field .image-choice.vertical .top {
+    width: 100%;
+    padding: 26px 0;
+    background: #f2f2f2;
+    text-align: center
+}
+
+.BlindBuilder .image-field .image-choice.vertical .bottom {
+    padding: 20px 0;
+    background: #f2f2f2
+}
+
+.Carousel--Blindbuilder {
+    height: 100%
+}
+
+.Carousel--Blindbuilder ul.slick-dots {
+    height: 0
+}
+
+.Carousel--Blindbuilder ul.slick-dots li {
+    display: none
+}
+
+@media (max-width:768px) {
+    .Carousel--Blindbuilder ul.slick-dots {
+        height: auto
+    }
+    .Carousel--Blindbuilder ul.slick-dots li {
+        display: inline-block
+    }
+}
+
+.Carousel--Blindbuilder__slide {
+    text-align: center
+}
+
+.Carousel--Blindbuilder__slide img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%
+}
+
+.Carousel--Blindbuilder__slide .ConfiguredProduct img {
+    margin: 0
+}
+
+.BlindBuilder__canvas .ConfiguredProduct {
+    max-width: 100%
+}
+
+@media (min-width:992px) {
+    .BlindBuilder__canvas .ConfiguredProduct {
+        height: 70vh
+    }
+    .BlindBuilder__canvas .ConfiguredProduct img {
+        height: 100%
+    }
+}
+
+.BlindBuilder__canvas__nav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.BlindBuilder__canvas__nav li {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin: 0 18px 18px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #fff;
+    transition: all .2s ease-out
+}
+
+.Modal--ConfiguredProduct .Modal__background,
+.Modal--ConfiguredProduct .Modal__content__close {
+    display: none
+}
+
+.PriceBar,
+.PriceBar.started {
+    position: fixed;
+    left: 0;
+    bottom: 0
+}
+
+.BlindBuilder__canvas__nav li .img {
+    width: 100%;
+    height: 100%;
+    background: center center no-repeat;
+    background-size: contain
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .BlindBuilder__canvas__nav li {
+        width: 45px;
+        height: 55px;
+        margin: 0 9px 10px
+    }
+}
+
+.BlindBuilder__canvas__nav li.selected {
+    top: -10px;
+    border-bottom: 5px solid #e69018
+}
+
+.Modal--ConfiguredProduct {
+    padding-bottom: 65px;
+    background: #fff;
+    z-index: 9;
+    align-items: flex-start
+}
+
+.Modal--ConfiguredProduct .Modal__content {
+    text-align: center
+}
+
+.Modal--ConfiguredProduct .ConfiguredProduct {
+    margin: 0 auto;
+    max-width: 90%
+}
+
+.PriceBar {
+    width: 100%;
+    background: #fff;
+    z-index: 10
+}
+
+.PriceBar.started {
+    width: 100%;
+    z-index: 13
+}
+
+@media (max-width:768px) {
+    .BlindBuilder__canvas__nav {
+        display: none
+    }
+    .PriceBar.started {
+        position: static;
+        z-index: auto
+    }
+}
+
+.PriceBar ul {
+    display: flex;
+    padding: 22px 0;
+    border-top: 1px solid grey;
+    width: 100%;
+    justify-content: space-between
+}
+
+.PriceBar ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px
+}
+
+.PriceBar ul li.price {
+    justify-content: flex-end;
+    font-size: 30px;
+    color: #4c4c4c
+}
+
+.PriceBar ul li.price strong {
+    display: none
+}
+
+@media (max-width:768px) {
+    .PriceBar ul li.price {
+        justify-content: center
+    }
+}
+
+.PriceBar ul .call,
+.PriceBar ul .experts,
+.PriceBar ul .warranty {
+    flex: 1 1 auto;
+    width: 14.86111%;
+    max-width: 215px
+}
+
+.PriceBar ul .experts,
+.PriceBar ul .warranty {
+    border-left: 1px solid #ddd
+}
+
+.PriceBar ul .JaggedCircleIcon,
+.PriceBar ul .PhoneIcon,
+.PriceBar ul .ProfileIcon {
+    margin-right: 10px
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .PriceBar ul .call,
+    .PriceBar ul .experts,
+    .PriceBar ul .warranty {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .PriceBar ul .call p,
+    .PriceBar ul .experts p,
+    .PriceBar ul .warranty p {
+        width: 100%;
+        text-align: center
+    }
+    .PriceBar ul .JaggedCircleIcon,
+    .PriceBar ul .PhoneIcon,
+    .PriceBar ul .ProfileIcon {
+        margin-right: 0
+    }
+}
+
+.PriceBar ul .JaggedCircleIcon,
+.PriceBar ul .PhoneIcon {
+    display: block;
+    width: 34px;
+    height: 34px
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .PriceBar ul .JaggedCircleIcon,
+    .PriceBar ul .PhoneIcon {
+        width: 25px;
+        height: 25px
+    }
+}
+
+.PriceBar ul .ProfileIcon {
+    width: 30px;
+    display: block
+}
+
+.PriceBar ul .preview,
+.PriceBar ul .quantity {
+    display: none
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .PriceBar ul .ProfileIcon {
+        width: 23px;
+        height: 25px
+    }
+}
+
+.PriceBar ul svg line,
+.PriceBar ul svg path {
+    stroke: #313446
+}
+
+.PriceBar ul p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #313446;
+    margin: 0
+}
+
+.PriceBar ul p a {
+    text-transform: uppercase;
+    color: inherit
+}
+
+.PriceBar ul .quantity .Control--incrementer {
+    width: 105px;
+    margin-right: 0
+}
+
+.PriceBar ul .button,
+.PriceBar ul .price,
+.PriceBar ul .quantity {
+    flex: 2 1 auto
+}
+
+.PriceBar ul .button {
+    min-width: 230px;
+    max-width: 400px;
+    position: relative
+}
+
+@media (max-width:930px) {
+    .PriceBar ul .button .ArrowIcon {
+        display: none
+    }
+}
+
+.PriceBar ul .button .LoadingCircle {
+    position: absolute;
+    top: 50%;
+    left: -1000000px;
+    margin-top: -20px;
+    margin-left: -50px
+}
+
+.PriceBar ul .button .LoadingCircle.visible {
+    left: 50%
+}
+
+.PriceBar ul .button a {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center
+}
+
+.PriceBar ul .button a svg {
+    position: relative;
+    margin-top: 0;
+    left: 0;
+    top: 2px
+}
+
+.PriceBar ul .button a.pending {
+    opacity: .3
+}
+
+.PriceBar ul .OrangeButtonLink,
+.PriceBar ul .OrangeButtonLink--inverse {
+    cursor: pointer
+}
+
+.PriceBar ul .OrangeButtonLink--inverse.disabled {
+    background-color: grey;
+    border: 2px solid grey;
+    opacity: .3;
+    cursor: no-drop
+}
+
+.PriceBar ul .OrangeButtonLink--inverse.disabled:hover {
+    color: #fff
+}
+
+.PriceBar ul .OrangeButtonLink--inverse.disabled:hover polyline {
+    stroke: #fff
+}
+
+@media (max-width:768px) {
+    .PriceBar ul .button {
+        max-width: 100%
+    }
+    .PriceBar ul {
+        padding-top: 0;
+        border-top: 0
+    }
+    .PriceBar ul li {
+        display: none
+    }
+    .PriceBar ul li.button {
+        display: flex;
+        padding: 10px 30px;
+        background: #f2f2f2;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 1000
+    }
+    .PriceBar ul li.button .ArrowIcon {
+        display: none
+    }
+}
+
+.PriceBar.started ul .button,
+.PriceBar.started ul .price,
+.PriceBar.started ul .quantity {
+    flex: 0 1 auto
+}
+
+.PriceBar.started ul .button {
+    width: 23%;
+    padding-right: 3.125%;
+    min-width: 140px
+}
+
+.PriceBar.started ul .price {
+    width: auto;
+    justify-content: center;
+    margin: 0 15px
+}
+
+.PriceBar.started ul .quantity {
+    width: auto;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    padding-right: 10px
+}
+
+@media (max-width:768px) {
+    .PriceBar.started ul {
+        padding: 20px
+    }
+    .PriceBar.started ul li {
+        display: none
+    }
+    .PriceBar.started ul li.button {
+        position: relative;
+        width: 50%;
+        padding: 0;
+        background: 0 0;
+        flex: 0 1 auto;
+        display: flex;
+        height: 50px;
+        z-index: auto
+    }
+    .PriceBar.started ul li.button .ArrowIcon {
+        display: initial
+    }
+    .PriceBar.started ul li.button a {
+        width: 100%;
+        height: 100%;
+        line-height: 50px;
+        padding: 0
+    }
+    .PriceBar.started ul li.quantity {
+        position: relative;
+        width: 47%;
+        justify-content: flex-start;
+        flex: 0 1 auto;
+        height: 50px;
+        z-index: auto
+    }
+    .PriceBar.started ul li.quantity .Control--incrementer {
+        width: 100%;
+        height: 100%;
+        line-height: 50px;
+        padding: 0
+    }
+    .PriceBar.started ul li.quantity .Control--incrementer input {
+        background: 0 0
+    }
+    .PriceBar.started ul li.preview {
+        display: flex;
+        width: 50%;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        z-index: 1000;
+        background: #fff;
+        font-size: 18px;
+        color: #e69018;
+        user-select: none;
+        -webkit-user-select: none;
+        cursor: pointer
+    }
+    .PriceBar.started ul li.preview .EnlargeIcon {
+        width: 23px;
+        height: 20px;
+        display: block;
+        margin-left: 11px
+    }
+    .PriceBar.started ul li.preview .EnlargeIcon svg {
+        width: 100%;
+        height: 100%
+    }
+    .PriceBar.started ul li.preview .EnlargeIcon svg circle,
+    .PriceBar.started ul li.preview .EnlargeIcon svg line,
+    .PriceBar.started ul li.preview .EnlargeIcon svg polyline {
+        stroke: #e69018
+    }
+    .PriceBar.started ul li.price {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        background: #f2f2f2;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        z-index: 1000;
+        text-align: center;
+        font-size: 24px;
+        margin: 0;
+        user-select: none;
+        -webkit-user-select: none
+    }
+    .PriceBar.started ul li.price strong {
+        display: block;
+        font-size: 12px;
+        color: grey;
+        line-height: 12px;
+        width: 100%
+    }
+    .PriceBar.started ul li.price .ArrowIcon {
+        display: none
+    }
+}
+
+.BlindBuilder__accordion__step {
+    position: relative;
+    z-index: 2
+}
+
+.BlindBuilder__accordion__step__header {
+    background: #fff;
+    margin: 0;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    color: grey;
+    border-bottom-width: 1px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    padding-bottom: 1px;
+    line-height: 50px;
+    font-size: 16px;
+    transition: all .2s linear;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.BlindBuilder__accordion__step__header em {
+    font-family: utopia-std, serif;
+    font-weight: 400;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 22px;
+    transition: all .2s linear;
+    opacity: 1
+}
+
+.BlindBuilderModal__copy-container h4,
+.BlindBuilderModal__copy-container p,
+.BlindBuilder__accordion__step .ContinueButton,
+.BlindBuilder__accordion__step__choices,
+.BlindBuilder__accordion__step__inner-content__note,
+.BlindBuilder__accordion__step__inner-content__title,
+.open .BlindBuilder__accordion__step__header {
+    font-family: nimbus-sans, sans-serif;
+    font-style: normal
+}
+
+.complete .BlindBuilder__accordion__step__header em {
+    opacity: 0
+}
+
+.BlindBuilder__accordion__step__header:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .2s linear
+}
+
+.BlindBuilder__accordion__step__header .CheckmarkIcon {
+    display: inline-block;
+    height: 12px;
+    width: 17px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -6px;
+    line-height: 12px;
+    opacity: 0;
+    transition: all .2s linear
+}
+
+.BlindBuilder__accordion__step__header .CheckmarkIcon svg {
+    width: 100%;
+    height: 100%
+}
+
+.BlindBuilder__accordion__step__header .CheckmarkIcon svg path {
+    fill: #e69018
+}
+
+.complete .BlindBuilder__accordion__step__header .CheckmarkIcon {
+    opacity: 1
+}
+
+.BlindBuilder__accordion__step__header .MoreArrowIcon {
+    height: 19px;
+    line-height: 19px;
+    width: 11px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    margin-top: -7px;
+    right: 5px;
+    transition: all .3s linear;
+    transform: rotate(90deg)
+}
+
+.BlindBuilder__accordion__step__header .MoreArrowIcon svg {
+    width: inherit;
+    height: inherit;
+    display: block
+}
+
+.BlindBuilder__accordion__step__header .MoreArrowIcon svg path {
+    fill: #bfbfbf;
+    transition: all .2s linear
+}
+
+.open .BlindBuilder__accordion__step__header .MoreArrowIcon {
+    transform: rotate(-90deg)
+}
+
+.disabled .BlindBuilder__accordion__step__header {
+    opacity: .5
+}
+
+.open .BlindBuilder__accordion__step__header {
+    font-weight: 700
+}
+
+.BlindBuilder__accordion__step.enabled h4:hover,
+.BlindBuilder__accordion__step.open h4 {
+    color: #e69018;
+    border-bottom-color: #e69018;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.BlindBuilder__accordion__step.enabled h4:hover:after,
+.BlindBuilder__accordion__step.open h4:after {
+    background: #e69018
+}
+
+.BlindBuilder__accordion__step.enabled h4:hover .BlindBuilder__accordion__step__step-name,
+.BlindBuilder__accordion__step.open h4 .BlindBuilder__accordion__step__step-name {
+    font-weight: inherit
+}
+
+.BlindBuilder__accordion__step.enabled h4:hover .MoreArrowIcon svg path,
+.BlindBuilder__accordion__step.open h4 .MoreArrowIcon svg path {
+    fill: #e69018
+}
+
+.BlindBuilder__accordion__step__choices {
+    font-weight: 300;
+    font-size: 12px;
+    color: grey;
+    text-transform: none;
+    text-align: right;
+    float: right;
+    margin-right: 27px
+}
+
+.BlindBuilderModal__copy-container,
+.SubOptions h6 {
+    text-align: center
+}
+
+@media (max-width:1000px) {
+    .BlindBuilder__accordion__step__choices {
+        display: none
+    }
+}
+
+.BlindBuilder__accordion__step__inner-content {
+    overflow: hidden;
+    padding: 30px 0;
+    display: none;
+    width: 100%;
+    position: relative
+}
+
+.open .BlindBuilder__accordion__step__inner-content {
+    display: block
+}
+
+.BlindBuilder__accordion__step__inner-content>* {
+    opacity: 1;
+    transition: opacity .3s linear
+}
+
+.show-loader .BlindBuilder__accordion__step__inner-content>:not(.BlindBuilder__accordion__step__inner-content__screen) {
+    opacity: .1;
+    transition: none
+}
+
+.BlindBuilder__accordion__step__inner-content__screen {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+    left: -10000000px;
+    transition: opacity .3s linear
+}
+
+.show-loader .BlindBuilder__accordion__step__inner-content__screen {
+    opacity: 1;
+    left: 0
+}
+
+.BlindBuilder__accordion__step__inner-content__screen img {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -56px
+}
+
+.BlindBuilder__accordion__step .ContinueButton {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 30px;
+    font-weight: 400;
+    font-size: 100%;
+    margin-top: 30px
+}
+
+.BlindBuilder__accordion__step .ContinueButton div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.BlindBuilder__accordion__step__inner-content__title {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #313446
+}
+
+@media (max-width:590px) {
+    .BlindBuilder__accordion__step__inner-content__title {
+        font-size: 16px;
+        display: inline;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #4c4c4c
+    }
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label,
+.BlindBuilder__accordion__step__inner-content__intro-text {
+    font-size: 16px;
+    color: #4c4c4c;
+    margin: 5px 0 0;
+    line-height: 23px
+}
+
+@media (max-width:590px) {
+    .BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label,
+    .BlindBuilder__accordion__step__inner-content__intro-text {
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        display: inline;
+        margin-left: 5px
+    }
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label:first-child,
+.BlindBuilder__accordion__step__inner-content__intro-text:first-child {
+    margin-top: 20px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label:last-child,
+.BlindBuilder__accordion__step__inner-content__intro-text:last-child {
+    margin-bottom: 5px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label .Message--warning-with-background,
+.BlindBuilder__accordion__step__inner-content__intro-text .Message--warning-with-background {
+    display: block;
+    margin-top: 12px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label a,
+.BlindBuilder__accordion__step__inner-content__intro-text a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label a:visited,
+.BlindBuilder__accordion__step__inner-content__intro-text a:visited {
+    color: inherit
+}
+
+.BlindBuilder__accordion__step__inner-content__note {
+    font-size: 12px;
+    color: grey;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 30px 0 0
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .BlindBuilder .Field--multiple-image-button__control-group .Control--imagebutton {
+        padding: 0;
+        flex: 1 1 100%
+    }
+    .BlindBuilder .Field--multiple-image-button__control-group .Control--imagebutton:last-child {
+        margin-bottom: 0
+    }
+    .BlindBuilder .Field--multiple-image-button__control-group .Control--imagebutton .Control--imagebutton__container__top {
+        height: auto;
+        padding-bottom: 0
+    }
+    .BlindBuilder .Field--multiple-image-button__control-group .Control--imagebutton .Control--imagebutton__container__top__wrap {
+        position: static
+    }
+    .BlindBuilder .Field--multiple-image-button__control-group .Control--imagebutton .Control--imagebutton__container__top__wrap img {
+        max-width: 100%
+    }
+}
+
+.Message--warning-with-background {
+    display: block;
+    margin-top: 12px
+}
+
+.SubOptions {
+    display: none;
+    width: 100%
+}
+
+.SubOptions .HorizontalLineArrowIcon {
+    margin: 25px auto
+}
+
+.SubOptions .Field--color-swatch {
+    flex: 0 1 100%
+}
+
+.SubOptions h6 {
+    font-size: 20px;
+    color: grey;
+    margin: 20px 0;
+    line-height: 20px
+}
+
+.BlindBuilder__accordion__step--color .Field--color-swatch,
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label:first-child {
+    margin-top: 30px
+}
+
+.SubOptions__fields {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap
+}
+
+.SubOptions__fields label {
+    display: none
+}
+
+.SubOptions__fields label.ColorSwatch__label {
+    display: block
+}
+
+.SubOptions__fields .Control {
+    width: 170px
+}
+
+.SubOptions .SubOptions__fields .Control {
+    width: 31%;
+    flex: 0 1 auto;
+    min-width: 170px;
+    padding: 0;
+    margin-bottom: 25px
+}
+
+.SubOptions .SubOptions__fields .Control.ColorSwatch {
+    width: 100%;
+    min-width: 100%
+}
+
+.SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+    padding-right: 0
+}
+
+.SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+    padding-left: 0
+}
+
+.SubOptions .SubOptions__fields .Control:nth-of-type(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0
+}
+
+.SubOptions .Field--multiple-image-button__control-group {
+    justify-content: space-between
+}
+
+.SubOptions .Field--multiple-image-button__control-group.items-2 {
+    justify-content: center
+}
+
+.SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(odd) {
+    margin-right: 10px
+}
+
+.SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(even) {
+    margin-left: 15px
+}
+
+.SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(2) {
+    margin-right: 0
+}
+
+@media (max-width:1250px) {
+    .SubOptions .SubOptions__fields .Control {
+        flex: 0 1 50%;
+        width: auto;
+        min-width: 0
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+        padding-right: 15px
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(2),
+    .SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+        padding-left: 15px;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media (max-width:1250px) and (max-width:590px) {
+    .SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+        padding-right: 5px
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(2),
+    .SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+        padding-left: 5px
+    }
+    .SubOptions .SubOptions__fields .Control {
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width:1250px) {
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(2),
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(odd) {
+        margin-right: 0
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(even) {
+        margin-left: 0
+    }
+}
+
+@media (max-width:768px) {
+    .SubOptions .SubOptions__fields .Control {
+        width: 31%;
+        flex: 0 1 auto;
+        min-width: 170px;
+        padding: 0;
+        margin-bottom: 25px
+    }
+    .SubOptions .SubOptions__fields .Control.ColorSwatch {
+        width: 100%;
+        min-width: 100%
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+        padding-right: 0
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+        padding-left: 0
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(2) {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0
+    }
+    .SubOptions .Field--multiple-image-button__control-group {
+        justify-content: space-between
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 {
+        justify-content: center
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(odd) {
+        margin-right: 10px
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(even) {
+        margin-left: 15px
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(2) {
+        margin-right: 0
+    }
+}
+
+@media (max-width:590px) {
+    .SubOptions .SubOptions__fields .Control {
+        flex: 0 1 50%;
+        width: auto;
+        min-width: 0
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+        padding-right: 15px
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(2),
+    .SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+        padding-left: 15px;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+@media (max-width:590px) and (max-width:590px) {
+    .SubOptions .SubOptions__fields .Control:nth-of-type(odd) {
+        padding-right: 5px
+    }
+    .SubOptions .SubOptions__fields .Control:nth-of-type(2),
+    .SubOptions .SubOptions__fields .Control:nth-of-type(even) {
+        padding-left: 5px
+    }
+    .SubOptions .SubOptions__fields .Control {
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width:590px) {
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(2),
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(odd) {
+        margin-right: 0
+    }
+    .SubOptions .Field--multiple-image-button__control-group.items-2 .Control:nth-of-type(even) {
+        margin-left: 0
+    }
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .BlindBuilder__accordion__step__inner-content__fields {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--select {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 0
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--select:nth-child(odd) {
+    padding-right: 15px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--select:nth-child(even) {
+    padding-left: 15px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--select .Field__label {
+    height: 24px;
+    color: #313446;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions {
+    width: 100%
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .Field--multiple-image-button__label {
+    display: block;
+    margin-bottom: 0
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Field {
+    flex: 0 1 47%;
+    max-width: 200px;
+    display: flex
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Field:first-of-type {
+    margin-right: 7px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Field:last-of-type {
+    margin-left: 7px
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Control {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0;
+    flex: 0 1 auto
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Control:nth-of-type(odd) {
+    padding-right: 0
+}
+
+.BlindBuilder__accordion__step--measure-and-mounting .SubOptions__fields .Control:nth-of-type(even) {
+    padding-left: 0
+}
+
+@media (max-width:991px) {
+    .BlindBuilder__accordion__step--measure-and-mounting .Field--select {
+        width: 100%
+    }
+    .BlindBuilder__accordion__step--measure-and-mounting .Field--select:nth-child(even),
+    .BlindBuilder__accordion__step--measure-and-mounting .Field--select:nth-child(odd) {
+        padding-right: 0;
+        padding-left: 0
+    }
+    .BlindBuilder__accordion__step--measure-and-mounting .Field--select:nth-child(even) label {
+        display: none
+    }
+}
+
+.BlindBuilder__accordion__step--color .Field--color-swatch__label {
+    display: none
+}
+
+.BlindBuilder__accordion__step--headrail button {
+    margin-top: 10px
+}
+
+.BlindBuilder__accordion__step--room-label .Field--text-input {
+    margin-top: 30px;
+    margin-bottom: 0
+}
+
+.BlindBuilder__accordion__step--room-label .Field__label {
+    font-size: 24px;
+    line-height: 24px;
+    color: #313446
+}
+
+.Modal--blindbuilder {
+    padding: 30px
+}
+
+.Modal--blindbuilder .Modal__content {
+    width: 80vw
+}
+
+@media (max-width:768px) {
+    .Modal--blindbuilder {
+        padding: 0;
+        height: 100%
+    }
+    .Modal--blindbuilder .Modal__content {
+        top: 0;
+        transform: none;
+        height: 90vh;
+        justify-content: flex-start
+    }
+    .Modal--blindbuilder .Modal__background {
+        height: 200%
+    }
+    .Modal--blindbuilder .Modal__content__close {
+        top: 15px;
+        right: 15px
+    }
+}
+
+.Modal--blindbuilder .Modal__content__wrapper {
+    padding: 0
+}
+
+@media (max-width:590px) {
+    .Modal--blindbuilder .Modal__content {
+        width: 100%;
+        height: 100%;
+        justify-content: center
+    }
+}
+
+.BlindBuilderModal {
+    display: flex;
+    background: #fff
+}
+
+.BlindBuilderModal>div {
+    width: 100%;
+    padding: 60px
+}
+
+.BlindBuilderModal.two-col>div {
+    width: 50%
+}
+
+@media (max-width:1199px) {
+    .BlindBuilderModal.two-col>div {
+        width: 60%
+    }
+    .BlindBuilderModal.two-col>div:first-child {
+        width: 40%
+    }
+}
+
+@media (max-width:991px) {
+    .BlindBuilderModal.two-col>div {
+        width: 70%
+    }
+    .BlindBuilderModal.two-col>div:first-child {
+        width: 30%
+    }
+}
+
+@media (max-width:768px) {
+    .BlindBuilderModal {
+        flex-direction: column;
+        min-height: 100%
+    }
+    .BlindBuilderModal.two-col {
+        flex-direction: column
+    }
+    .BlindBuilderModal.two-col>div,
+    .BlindBuilderModal.two-col>div:first-child {
+        width: 100%
+    }
+}
+
+.BlindBuilderModal__image-container {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.BlindBuilderModal__copy-container h4 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: none;
+    font-weight: 300
+}
+
+.BlindBuilderModal__copy-container p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #4c4c4c
+}
+
+.BlindBuilderModal__copy-container p a {
+    color: #e69018
+}
+
+.IncompatibilityMessage {
+    text-align: left
+}
+
+.IncompatibilityMessage ul {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 20px
+}
+
+.IncompatibilityMessage ul li {
+    margin-bottom: 10px
+}
+
+/*
+.SubOptions.hide {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s cubic-bezier(.525,.66,.495,1.4);
+}
+.SubOptions.show {
+	max-height: 336px;
+}
+*/
+
+.LoadingIcon-2 {
+
+
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    text-indent: -9999em;
+    position: relative;
+
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0%  { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
